@@ -1,0 +1,26 @@
+plugins {
+  id 'java'
+}
+
+group 'ovh.nof.dcintegration'
+version '1.0.0'
+
+repositories {
+  mavenCentral()
+  maven {
+    url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    content {
+      includeGroup 'org.bukkit'
+      includeGroup 'org.spigotmc'
+    }
+  }
+}
+
+dependencies {
+  compile 'club.minnced:discord-webhooks:0.8.2'
+  compileOnly 'org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT'
+}
+
+test {
+  useJUnitPlatform()
+}

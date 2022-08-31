@@ -1,0 +1,5 @@
+name: 'Discord-Integration'
+main: 'ovh.nof.dcintegration.DiscordIntegrationPlugin'
+version: '1.0.0'
+author: 'nof'
+website: 'https://github.com/nofxD/Discord-Integration'

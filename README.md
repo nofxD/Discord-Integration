@@ -1,1 +1,2 @@
-# Discord-Integration-MC
+# Discord Integration
+Minecraft chat integration with Discord using webhook (test project).
